@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  list-style-type: none;
+}
+.main {
+  margin: 0 auto;
+  background-color: #fafaf9;
+  width: 1280px;
+  display: flex;
+  gap: 20px;
+  padding: 150px 50px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.description-div {
+  width: 50%;
+}
+
+.profile-div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  position: relative;
+  margin-left: 0px;
+}
+
+.pl-1-images {
+  display: flex;
+  gap: 20px;
+}
+
+.common-img {
+  width: 90px;
+  height: 30px;
+}
+
+/* Description Div style */
+
+.description-div-icon {
+  background-color: #f5c044;
+  padding: 5px;
+  border-radius: 20px;
+  color: #fff8b1;
+}
+
+.description-div .heading-title {
+  font-size: 48px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.description-div .desk {
+  font-size: 25px;
+  color: #52525a;
+  margin-top: 0px;
+}
+
+ul {
+  background-color: red;
+}
+
+ul {
+  color: #5c5c63;
+  font-size: 20px;
+  background: url(images/Done_ring_round_fill.svg) no-repeat top left;
+  margin-bottom: 1rem;
+  padding: 0px 0 5px 34px;
+}
+
+/* profile style */
+
+.profile-1,
+.profile-2 {
+  width: 370px;
+  height: 190px;
+  background-color: #ffffff;
+  padding: 40px 50px;
+  border-radius: 10px;
+}
+
+.profile-image1-title,
+.pro {
+  font-size: 28px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.profile-image1-des {
+  font-size: 20px;
+  color: #5c5c63;
+  margin-top: 5px;
+}
+
+.profile-container1 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 640px) {
+  .main {
+    flex-direction: column;
+    padding: 100px 0px;
+    width: 100%;
+  }
+  .description-div {
+    width: 100%;
+    padding: 0px 20px;
+  }
+  .profile-div {
+    width: 100%;
+  }
+}
